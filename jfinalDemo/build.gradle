@@ -1,4 +1,32 @@
 apply plugin: 'java'
+apply plugin: 'maven'
+
+group = 'com.bosssoft.platform'
+version = '1.0.0-RELEASE'
+sourceCompatibility = 1.8
+task writeNewPom << {
+    pom {
+        project {
+            inceptionYear '2014'
+            licenses {
+                license {
+                    name 'The Apache Software License, Version 2.0'
+                    url 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+                    distribution 'repo'
+                }
+            }
+        }
+    }.writeTo("pom.xml")
+}
+
+
+tasks.withType(GroovyCompile) {   
+    groovyOptions.encoding = "MacRoman"   
+}  
+
+tasks.withType(JavaCompile) {  
+    options.encoding = "UTF-8"  
+}
 
 dependencies {
     compile project(":library")

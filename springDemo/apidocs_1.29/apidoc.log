@@ -1,0 +1,22 @@
+一月 29, 2018 5:29:06 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: find java src path : D:\github\JApiDocs\springDemo\src\main\java\
+一月 29, 2018 5:29:06 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: found it a spring mvc project, tell us if we are wrong.
+一月 29, 2018 5:29:06 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: generate api docs start...
+一月 29, 2018 5:29:06 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: start to parse controller file : UserController.java
+一月 29, 2018 5:29:06 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: start to generate docs for controller file : UserController.java
+一月 29, 2018 5:29:07 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: success to generate docs for controller file : UserController.java
+一月 29, 2018 5:29:07 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: start to parse controller file : AdminController.java
+一月 29, 2018 5:29:07 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: start to generate docs for controller file : AdminController.java
+一月 29, 2018 5:29:07 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: success to generate docs for controller file : AdminController.java
+一月 29, 2018 5:29:07 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: generate api docs done !!!
+一月 29, 2018 5:29:07 下午 io.github.yedaxia.apidocs.LogUtils warn
+警告: docs config properties miss, we don't think you want to post to rap!

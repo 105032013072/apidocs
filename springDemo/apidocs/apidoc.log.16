@@ -1,0 +1,8 @@
+二月 05, 2018 3:01:33 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: find java src path : D:\github\JApiDocs\springDemo\src\main\java\
+二月 05, 2018 3:01:38 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: found it a spring mvc project, tell us if we are wrong.
+二月 05, 2018 3:01:38 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: generate api docs start...
+二月 05, 2018 3:01:38 下午 io.github.yedaxia.apidocs.LogUtils info
+信息: start to parse controller file : UserController.java
